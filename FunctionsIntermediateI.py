@@ -30,4 +30,6 @@ print(sports_directory['soccer'][0])
 
 # 4 Change the value 20 in z to 30
 print()
-print()
+print(z[0]['y'])
+z[0]['y'] = 30
+print(z[0]['y'])
